@@ -1,0 +1,116 @@
+/* Big tablet to 1200px (widths smaller than the 1440px row)*/
+    @media only screen and (max-width: 1200px) {
+        .data img {
+            width: 65px;
+            height: 100px;
+          }
+
+        .desc {
+            font-size: 70%;
+          }
+
+          .media {
+            height: 110px;
+          }
+
+          .media-details h2{
+            font-size: 200%;
+          }
+
+          .media-text p {
+            font-size: 80%;
+          }
+
+          .popularity p {
+            width: 60px;
+            height: 40px;
+            font-size: 130%;
+          }
+
+          .btn-inline span {
+            display: none;
+        }
+   
+   }
+   
+   /* Small tablet to big tablet: from 768px to 1023px;*/
+   @media only screen and (max-width: 1023px) {
+    .desc {
+        display: none;
+      }
+
+      .media-text button{
+        display: block;
+        margin: 10px auto;
+        border: 1px solid #15e2e9;
+        background-color: #1b1b1b;
+        border-radius: 6px;
+      }
+
+      .btn-inline {
+        font-size: 70%;
+      }
+
+      .media {
+          text-align: center;
+      }
+
+      .data img {
+        float: none;
+        /* display: inline; */
+        border: 1px solid black;
+      }
+
+      .search input{
+        width: 50%;
+        font-size: 80%;
+        padding: 10px 3%;
+      }
+      
+      .search button{
+        width: 47%;
+        padding: 10px 3%;
+        font-size: 80%;
+      }
+
+   }
+   
+   /* Small phones to small tablets: from 481px to 767px;*/
+   @media only screen and (max-width: 767px) {
+    .popularity p {
+        width: 50px;
+        height: 30px;
+        font-size: 90%;
+      }
+
+      .search input{
+        width: 55%;
+        font-size: 80%;
+        padding: 10px 3%;
+      }
+      
+      .search button{
+        width: 43%;
+        padding: 10px 3%;
+        font-size: 80%;
+      }
+
+      .search {
+        padding-right: 15%;
+        width: 40%;
+        margin-top: 70px;
+      }
+       
+   }
+   
+   /* Small Phones from 0 to 480px*/
+   @media only screen and (max-width: 480px) {
+    .media-details h2{
+        font-size: 140%;
+      }
+
+      .media-text p {
+        font-size: 70%;
+      }
+
+   }
